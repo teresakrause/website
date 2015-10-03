@@ -1,0 +1,25 @@
+$primary-color : #1359B4;
+$primary-color-dark: #053470;
+$secondary-color-a : #FFD006;
+$secondary-color-b : #FF5406;
+$white: #FFFFFF;
+//http://colorschemedesigner.com/csd-3.5/#3D31Yvf..yKjF
+
+body 
+{
+  background-color: $primary-color; 
+}
+
+
+.jumbotron 
+{
+  background-color: $primary-color-dark;
+  color: $white;
+}
+
+.page-header
+{
+  // background-color: $primary-color-dark;
+  color: $secondary-color-a;
+  border-bottom: none;
+}
